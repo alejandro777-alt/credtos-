@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    width: 1200px;
+    height: 1000px;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    border-radius: 6% 6% 7% 6% / 7% 7% 9% 9%;
+}
+
+#header {
+    height: 12%;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-electronic-technology-website-texture-background-banner-image_156039.jpg);
+    border-radius: 1em;
+    margin: 1em;
+    font-size: 28px;
+    font-style: sans, serif;
+    animation-name: header;
+    animation-duration: 5s;
+    animation: header 9s linear infinite;
+}
+
+@keyframes header {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes header {
+    0% {
+        background-image: url(https://i.blogs.es/990e13/whatsapp-comparativa-modo-oscuro-android-iphone-1/1366_2000.jpg);
+    }
+    10% {
+        background-image: url(https://st.depositphotos.com/1000143/2340/i/600/depositphotos_23400230-stock-photo-military-texture-camouflage-background.jpg);
+    }
+    25% {
+        background-image: url(https://fondos.io/wp-content/uploads/2019/01/militar-camo-wallpapers-hd_4716-640x400.jpg);
+    }
+    50% {
+        background-image: url(https://fondos.io/wp-content/uploads/2019/01/militar-camo-wallpapers-hd_4568-640x360.jpg);
+    }
+    60% {
+        background-image: url(https://image.freepik.com/foto-gratis/siluetas-militares-o-soldado-fondo-cielo-al-atardecer-soldado-totalmente-equipado-armado-pie-entorno-siluetas-puesta-sol_35024-977.jpg);
+    }
+    70% {
+        background-image: url(https://i.pinimg.com/originals/03/96/cf/0396cf9141d61bd889283db87b291670.jpg);
+    }
+    75% {
+        background-image: url(https://image.freepik.com/foto-gratis/siluetas-militares-o-soldado-fondo-cielo-al-atardecer-soldado-totalmente-equipado-armado-pie-entorno-siluetas-puesta-sol_35024-977.jpg);
+    }
+    85% {
+        background-image: url(https://fondosmil.com/fondo/24725.jpg);
+    }
+    100% {
+        background-image: url(https://fondosmil.com/fondo/24725.jpg);
+    }
+}
+
+#nav {
+    font-style: italic;
+}
+
+#nav {}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#nav ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 10px 90px;
+    display: block;
+}
+
+#nav ul li a:hover {
+    background-color: rgb(136, 144, 221);
+    border-radius: 1em;
+}
+
+#contenido {
+    height: 53%;
+    margin: 1em;
+}
+
+#footer {
+    height: 15%;
+    background-image: url(https://i.pinimg.com/originals/9a/60/69/9a60699fb0656096a8f8b714375a5aff.png);
+    border-radius: 1em;
+    margin: 1em;
+    font-size: 50PX;
+    margin: 2px;
+    animation-name: footer;
+    animation-duration: 5s;
+    animation: footer 9s linear infinite;
+}
+
+@keyframes footer {
+    0% {
+        background-image: url(https://i.pinimg.com/originals/03/96/cf/0396cf9141d61bd889283db87b291670.jpg);
+    }
+    10% {
+        background-image: url(https://fondosmil.com/fondo/24725.jpg);
+    }
+    25% {
+        background-image: url(https://fondos.io/wp-content/uploads/2019/01/militar-camo-wallpapers-hd_4716-640x400.jpg);
+    }
+    50% {
+        background-image: url(https://fondos.io/wp-content/uploads/2019/01/militar-camo-wallpapers-hd_4568-640x360.jpg);
+    }
+    60% {
+        background-image: url(https://image.freepik.com/foto-gratis/siluetas-militares-o-soldado-fondo-cielo-al-atardecer-soldado-totalmente-equipado-armado-pie-entorno-siluetas-puesta-sol_35024-977.jpg);
+    }
+    60% {
+        background-image: url(https://i.pinimg.com/originals/d0/49/cd/d049cd527d022cbba5e0ded6cb57a769.jpg)
+    }
+    60% {
+        background-image: url(https://image.freepik.com/foto-gratis/siluetas-militares-o-soldado-fondo-cielo-al-atardecer-soldado-totalmente-equipado-armado-pie-entorno-siluetas-puesta-sol_35024-977.jpg);
+    }
+    60% {
+        background-image: url(https://image.freepik.com/foto-gratis/siluetas-militares-o-soldado-fondo-cielo-al-atardecer-soldado-totalmente-equipado-armado-pie-entorno-siluetas-puesta-sol_35024-977.jpg);
+    }
+    100% {
+        background-image: url(https://fondosmil.com/fondo/24725.jpg);
+    }
+}
+
+#section {
+    height: 95%;
+    width: 71%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCRs2qjuIi8XR7aD6v_X3KgplI9ao78Nt_A&usqp=CAU);
+    border-radius: 3em;
+    float: left;
+    margin: 0.5em;
+    margin-left: 0.5em;
+    border: 7px solid #f1f0ee;
+    animation-name: asside;
+    animation-duration: 5s;
+    animation: asside 9s linear infinite;
+}
+
+@keyframes asside {
+    0% {
+        background-image: url(https://i.pinimg.com/originals/03/96/cf/0396cf9141d61bd889283db87b291670.jpg);
+    }
+    10% {
+        background-image: url(https://fondosmil.com/fondo/24725.jpg);
+    }
+    25% {
+        background-image: url(https://fondos.io/wp-content/uploads/2019/01/militar-camo-wallpapers-hd_4716-640x400.jpg);
+    }
+    50% {
+        background-image: url(https://fondos.io/wp-content/uploads/2019/01/militar-camo-wallpapers-hd_4568-640x360.jpg);
+    }
+    60% {
+        background-image: url(https://image.freepik.com/foto-gratis/siluetas-militares-o-soldado-fondo-cielo-al-atardecer-soldado-totalmente-equipado-armado-pie-entorno-siluetas-puesta-sol_35024-977.jpg);
+    }
+    70% {
+        background-image: url(https://i.pinimg.com/originals/03/96/cf/0396cf9141d61bd889283db87b291670.jpg);
+    }
+    75% {
+        background-image: url(https://image.freepik.com/foto-gratis/siluetas-militares-o-soldado-fondo-cielo-al-atardecer-soldado-totalmente-equipado-armado-pie-entorno-siluetas-puesta-sol_35024-977.jpg);
+    }
+    85% {
+        background-image: url(https://image.freepik.com/vector-gratis/fondo-guerra-siluetas-soldados_23-2147908251.jpg);
+    }
+    100% {
+        background-image: url(https://fondosmil.com/fondo/24725.jpg);
+    }
+}
+
+#aside {
+    height: 95%;
+    width: 25%;
+    border-radius: 1em;
+    float: right;
+    margin: 0.5em;
+}
+
+@keyframes prueba {
+    0% {
+        transform: translateY(10);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.articulo {
+    width: 70%;
+    height: 20%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBCRs2qjuIi8XR7aD6v_X3KgplI9ao78Nt_A&usqp=CAU);
+    margin: 1em;
+    border-radius: 1em;
+    color: rgb(0, 0, 0);
+    font-size: 17.9PX;
+    animation-name: art;
+    animation-duration: 5s;
+    animation: art 9s linear infinite;
+}
+
+@keyframes art {
+    0% {
+        background-image: url(https://i.pinimg.com/originals/03/96/cf/0396cf9141d61bd889283db87b291670.jpg);
+    }
+    10% {
+        background-image: url(https://fondosmil.com/fondo/24725.jpg);
+    }
+    60% {
+        background-image: url(https://i.pinimg.com/originals/d0/49/cd/d049cd527d022cbba5e0ded6cb57a769.jpg)
+    }
+    60% {
+        background-image: url(https://image.freepik.com/foto-gratis/siluetas-militares-o-soldado-fondo-cielo-al-atardecer-soldado-totalmente-equipado-armado-pie-entorno-siluetas-puesta-sol_35024-977.jpg);
+    }
+    60% {
+        background-image: url(https://image.freepik.com/foto-gratis/siluetas-militares-o-soldado-fondo-cielo-al-atardecer-soldado-totalmente-equipado-armado-pie-entorno-siluetas-puesta-sol_35024-977.jpg);
+    }
+    100% {
+        background-image: url(https://fondosmil.com/fondo/24725.jpg);
+    }
+}
+
+button {
+    color: #08e708;
+    text-align: center;
+    border-radius: 20px 10px 20PX;
+    padding: 5px 5px 5px;
+    height: 3%;
+    opacity: unset;
+    font-size: 19px;
+    float: left;
+    background-image: url(https://i.blogs.es/990e13/whatsapp-comparativa-modo-oscuro-android-iphone-1/1366_2000.jpg);
+}
+
+#eslogan {
+    color: #191b18;
+    padding: 5px 5px 5px;
+    margin: 0.5em;
+    font-style: italic;
+    font-size: 60px;
+    font-style: italic;
+}
+
+nav menuitem {
+    position: relative;
+    display: block;
+    opacity: 0;
+    cursor: pointer;
+}
+
+nav menuitem>menu {
+    position: absolute;
+    pointer-events: none;
+}
+
+nav>menu {
+    display: flex;
+}
+
+nav>menu>menuitem {
+    pointer-events: all;
+    opacity: 1;
+}
+
+menu menuitem a {
+    white-space: nowrap;
+    display: block;
+}
+
+menuitem:hover>menu {
+    pointer-events: initial;
+}
+
+menuitem:hover>menu>menuitem,
+menu:hover>menuitem {
+    opacity: 1;
+}
+
+nav>menu>menuitem menuitem menu {
+    transform: translateX(100%);
+    top: 0;
+    right: 0;
+}
+
+
+/* User Styles Below Not Required */
+
+
+/* User Styles Below Not Required */
+
+
+/* User Styles Below Not Required */
+
+nav {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+nav a {
+    background: rgb(158, 241, 150);
+    color: #0c0505;
+    min-width: 190px;
+    transition: background 0.5s, color 0.5s, transform 0.5s;
+    margin: 0px 6px 6px 0px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+nav a:hover:before {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+}
+
+nav>menu>menuitem>a+menu:after {
+    content: '';
+    position: absolute;
+    border: 10px solid transparent;
+    border-top: 10px solid white;
+    left: 12px;
+    top: -40px;
+}
+
+nav menuitem>menu>menuitem>a+menu:after {
+    content: '';
+    position: absolute;
+    border: 10px solid transparent;
+    border-left: 10px solid white;
+    top: 20px;
+    left: -180px;
+    transition: opacity 0.6, transform 0s;
+}
+
+nav>menu>menuitem>menu>menuitem {
+    transition: transform 0.6s, opacity 0.6s;
+    transform: translateY(150%);
+    opacity: 0;
+}
+
+nav>menu>menuitem:hover>menu>menuitem,
+nav>menu>menuitem.hover>menu>menuitem {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+menuitem>menu>menuitem>menu>menuitem {
+    transition: transform 0.6s, opacity 0.6s;
+    transform: translateX(195px) translateY(0%);
+    opacity: 0;
+}
+
+menuitem>menu>menuitem:hover>menu>menuitem,
+menuitem>menu>menuitem.hover>menu>menuitem {
+    transform: translateX(0) translateY(0%);
+    opacity: 1;
+}
